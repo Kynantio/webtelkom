@@ -1,0 +1,121 @@
+* {
+box-sizing: border-box;
+}
+body {
+font-family: Arial;
+padding: 10px;
+background: #f1f1f1;
+}
+/* Header */
+.header {
+padding: 30px;
+text-align: center;
+background-color: red;
+}
+.header h1 {
+font-size: 50px;
+}
+/* top navigation */
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+/* topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* color on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Left column */
+.leftcolumn {
+float: left;
+width: 75%;
+}
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+position: auto;
+background-image: url("SMK-Telkom-Malang.jpg");
+width : 60%;
+padding: 150px;
+}
+.fakeeimg {
+background-image: url("smktelkom.jpg");
+width: 70%;
+padding: 170px;
+}
+.fakeeiimg {
+background-image: url("gambar_apik.png");
+width: 40%;
+padding: 130px;
+}
+.fakeeimgg {
+background-image: url("upacara.jpg");
+width: 50%;
+padding: 130px;
+}
+.fakeeiimgg {
+background-image: url("image2.jpg");
+width: 70%;
+padding: 190px;
+}
+.fakeeimggg {
+background-image: url("paskibra.jpg");
+width: 70%;
+padding: 130px;
+}
+.fakeeeimg {
+background-image: url("prestasi.jpg");
+width: 70%;
+padding: 130px;
+}
+/* Add a card effect for articles */
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+content: &quot;&quot;;
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
